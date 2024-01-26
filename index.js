@@ -8,7 +8,7 @@ import multer from 'multer'
 import {PostController,UserController} from './controllers/index.js'
 
 mongoose
-    .connect("mongodb+srv://admin:DeathNote@montaro.whusxcz.mongodb.net/blog")
+    .connect("mongodb+srv://admin:nono@montaro.whusxcz.mongodb.net/blog")
     .then(()=>console.log("Mongose has connected!"))
     .catch((err) => console.log(err))
 
